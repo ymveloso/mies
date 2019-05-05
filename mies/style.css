@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input, textarea, select {
+  font: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+body {
+font-family: times, serif;
+font-size: 3.5vmin;
+line-height: 1.2;
+cursor: url('img/cursor1.png');
+}
+
+#header a, #header a:link, #header a:visited, #header a:active {
+  text-decoration: none;
+  color:#FAD2C8;
+}
+
+#header a:hover {
+  letter-spacing: 2px;
+}
+
+/* Slideshow collumn */
+.col-sm-8 {
+  padding:0; /* this keeps the slideshow at 100% width*/
+}
+
+.carousel {
+/* border: 10px solid red; */
+}
+
+#carousel, #works, #caroussel img {
+  background-color: #fff;
+}
+
+img.next {  cursor: pointer;}
+
+
+/* Rest of Information */
+
+li {font-weight: normal;}
+
+li:hover {text-decoration: underline;}
+
+h2, h1 {
+  font-weight: bold;
+}
+
+h2.name {
+  margin-top: 10px;
+}
