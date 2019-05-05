@@ -54,28 +54,9 @@ input, textarea, select {
 
 body {
 font-family: times, serif;
-background-color: #f2ede7;
 font-size: 3.5vmin;
 line-height: 1.2;
-color: #302D7D;
 cursor: url('img/cursor1.png');
-
-transition: all 0.5s;
-
-}
-
-#header {
-  font-size: 5vmin;
-  background: #E62A44;
-  letter-spacing: 1.5px;
-  color: #FAD2C8;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0; /* Stay on top */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  box-sizing: border-box;
-  z-index: 1;
-  cursor: s-resize;
 }
 
 #header a, #header a:link, #header a:visited, #header a:active {
@@ -85,35 +66,6 @@ transition: all 0.5s;
 
 #header a:hover {
   letter-spacing: 2px;
-}
-
-/* Animation Grid */
-.col-sm#grid {
-  /* border: 1px solid; */
-  padding: 0px;   /* this will make the front grid gutter-free  */
-}
-
-/* Intro div (text) */
-.row#first {
-  background-color: #f7f3ef;
-  padding: 1.5vw 2vw 0 3vw;
-}
-.row#first i {
-  color: #E62A44;
-}
-
-/* Artist profiles */
-.col-sm-4#info {
-  background:  #fff;
-  border-radius: 0px 0px 100px 0px;
-  /* transition: all 0.5s; /* attempt to change img  transiction*/ */
-}
-.col-sm-4#info, .col#interview, .col-sm-4#works {
-  padding: 1.5em;
-}
-
-#works {
-  border-radius: 0px 0px 100px;
 }
 
 /* Slideshow collumn */
@@ -129,28 +81,10 @@ transition: all 0.5s;
   background-color: #fff;
 }
 
-
-
-#innerslide {
-/* not working */
-}
-
-.circle, .circle2 {
-  width: 30px;
-  height: 30px;
-  background-color: #3e78ed;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s;
-}
-
 img.next {  cursor: pointer;}
 
 
 /* Rest of Information */
-.row#stslide {
-  background:  #FAD2C8;
-}
 
 li {font-weight: normal;}
 
@@ -162,43 +96,4 @@ h2, h1 {
 
 h2.name {
   margin-top: 10px;
-}
-
-#date, #location {
-  font-size: 25vmin;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 900;
-
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  word-wrap: break-word;
-
-}
-
-#date {
-  background-color: #302D7D;
-  color: #FAD2C8;
-}
-
-#location {
-  color: #E62A44;
-}
-
-.row#contact {
-  background: #Fff;
-  color: #F7A813;
-  padding: 3vh;
-  padding-right: 35vw;
-}
-
-.row#contact b {
-  color: #302D7D;
-}
-
-.row#footer {
-height: 7vh;
 }
