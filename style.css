@@ -1,15 +1,166 @@
 /* This is the only CSS that matters  */
 body {
 font-family: times, serif;
-font-size: 3.5vmin;
+font-size: 2.8vmin;
 line-height: 1.2;
 cursor: url('img/cursor1.png');
+background: #F9F9F9;
+}
+
+/* Sections */
+.container {
+/* border: 1px solid grey; */
+}
+
+section {
+  margin-bottom: 40px;
+  /* border: 1px solid grey; */
+}
+
+section.feature {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+table.highlights {
+  background: #fff;
+  color: blue;
 }
 
 td, th {
-  background: grey;
+  vertical-align: middle;
+  padding: 5px;
+
 }
 
-table {
-  background: pink;
+table.highlights td, table.highlights th  {
+  background: #F2FFFF;
 }
+
+table.feature {
+  background: #F2FFFF;
+}
+
+table.feature td, table.feature th  {
+  background: #fff;
+}
+
+/* Text Styles */
+h1, h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Arial Black';
+  margin-bottom: 0.2em;
+}
+
+h1.header {
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+p.statement {
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+p.statement b {
+  color: purple;
+  font-family: arial;
+}
+
+p.statement i {
+  color: red;
+}
+
+sup {
+  font-family: arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+/* Extra Elements */
+button {
+  border-radius: 50%;
+  border: 2px outset #fff;
+  background: #FFC7B7;
+  transition: box-shadow 0.3s;
+  padding: 10px 15px 10px 15px;
+  font-family: arial, sans-serif;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.20);
+}
+
+ul {
+  list-style-image: url('img/sqpurple.gif');
+}
+
+/* Slideshows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 50px;
+  color: #000;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 50px;
+  color: #000;
+}
+
+.carousel{ margin-bottom: 15px; max-height: 80vh; overflow: hidden;}
+.carousel-item, .carousel img { margin: auto; max-height: 80vh; width: auto;}
+/* .carousel-inner img, .d-block, .w-100 {
+margin: 0 auto;
+height: 100%;
+border: 10px solid red;
+} */
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 575.98px) {
+
+  h1, h2 {
+font-size: 12px;
+  }
+
+ }
+
+
+/* Media Queries */
+/*
+
+body {
+font-size: ;
+}
+
+H1, H2 {
+font-size: smaller;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.carousel-control-next-icon:after,
+.carousel-control-prev-icon:after {
+font-size: 20px;
+}
+
+
+
+
+ */
