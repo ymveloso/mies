@@ -20,3 +20,11 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
+*.jpg
+*.png
+*.MOV
+*.mp4
+*.gif
+*.pdf
+*.jpeg
+*.svg
