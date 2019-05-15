@@ -1,48 +1,55 @@
 <?php include 'header.php';?>
+<br>
+      <section class="feature">
+      <h1 class="header">Micha Prinsen</h1>
+      <button><a href="#1">Volume 2</a></button>
+      <button><a href="#2">Volume 3</a></button>
+      <button><a href="#3">Volume 4</a></button>
+      <button><a href="#4">Host</a></button>
+      <button><a href="#4">More</a></button>
+      <button><a href="#4"><i>About</i></a></button>
 
-      <h1 class="header"> Micha Prinsen</h1>
+      </section>
+
+<br>
+<br>
+<br>
       <TABLE class="highlights">
        <TR>
           <TH colspan="3">Highlights <sup>New!</sup></TH>
        </TR>
        <TR>
-          <TD><img src="img/img1.jpeg"></img></TD>
-          <TD><img src="img/img2.jpeg"></img></TD>
+          <TD><iframe width="560" height="315" src="https://www.youtube.com/embed/0jPHMjqsMMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TD>
+          <TD>hi</img></TD>
           <TD><img src="img/img3.jpeg"></img></TD>
        </TR>
        <TR>
-          <TD>Caption 1</TD>
-          <TD>Caption 2</TD>
-          <TD>Caption 3</TD>
+          <TD>Docu</TD>
+          <TD><a href="link#2">Something eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeelse</a></TD>
+          <TD><a href="https://www.kunstfort.nl/en/exhibitions/lennart-de-neef-en-micha-prinsen/">https://www.kunstfort.nl/en/exhibitions/lennart-de-neef-en-micha-prinsen</a></TD>
        </TR>
-    </TABLE>
-<br>
-<br>
-<section class="feature">
-  <button>Button 1</button>
-  <button>Button 2</button>
-  <button>Button 3</button>
-</section>
-<br>
+      </TABLE>
+      <br>
+      <br>
+      <br>
+      <br>
 
-    <p class="statement">
-      <b>Micha prinsen</b> (Utrecht, 1988) is an artist based in Rotterdam. He operates between the fields of sculpture, set design and image-making, often using a <i>personal</i> photo/video archive as a starting point (instagram @m_prinsen).
-    </p>
-
-
-<section class="project">
-    <h2>Project Title </h2>
+<section class="project" id="1">
+    <h2>Volume 2</h2>
 
     <div id="project1" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/img1.svg">
+      <img class="d-block w-100" src="img/volume2_3.jpg">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/img2.svg">
+      <img class="d-block w-100" src="img/volume2_2.jpg">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/img1.svg">
+      <img class="d-block w-100" src="img/volume2_6.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/volume2_1.jpg">
     </div>
   </div>
   <a class="carousel-control-prev" href="#project1" role="button" data-slide="prev">
@@ -55,7 +62,11 @@
   </a>
 </div>
 
-    <p class="project"> An about text.</p>
+    <p class="project">
+      <b>VOLUME II
+Untitled I and II, 2015, vinyl on car hood</b>
+<br>
+Work made as part of the second edition of VOLUME, an art collective made up of Lennart de Neef, Joeri Woudstra, Thijs Jaeger, Ricardo van Eyk and myself. The collective's collaborative workflow has resulted in a series of group shows.</p>
 </section>
 
 <section class="feature">
@@ -92,7 +103,7 @@
 </section>
 
 
-<section class="project">
+<section class="project" id="2">
     <h2>Project Title </h2>
 
     <div id="cars" class="carousel slide" data-ride="carousel">
@@ -182,6 +193,19 @@
 
     <p class="project"> An about text.</p>
 </section>
+
+
+<section class="feature">
+<button><a href="http://instagram.com/m_prinsen">Instagram</a></button>
+<button><a href="https://www.pattymorgan.net/michaprinsen">Patty Morgan</a></button>
+<button><a href="mailto:michaprinsen@gmail.com">E-mail</a></button>
+</section>
+<br>
+
+
+<p class="statement">
+I work across painting, sculpture, photography and video, usually starting from an ever-growing collection of images I take of situations that draw my attention: be it an attempt to fix a side mirror of a car using a small angled metal piece from the construction shop, something highlighted with spray-paint on a construction site or a couple of missing tiles on a wall that display the brush strokes of the underlying glue. I observe, document, appropriate and build on these approaches of using a technique beyond its limits, functionality, intentions and original purpose. In this way, my works start from being documentary to becoming more personal as I research, experiment and customise the tools, context and materials I register, take and work with.
+</p>
 
 
 <?php include 'footer.php';?>
