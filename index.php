@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+
 <br>
       <section class="feature">
       <h1 class="header">Micha Prinsen</h1>
